@@ -1,4 +1,4 @@
-# override the variable in terraform.tfvars
+### override the variable in terraform.tfvars
 
 - aws_credentials_file_path:     credential file path
 
@@ -16,10 +16,10 @@
 
 - gcp_subnet1_cidr: gcp subnet cidr, this is manually into vpc route table because the vpc can not get the bgp from transite gateway
 
-# Setup GOOGLE_APPLICATION_CREDENTIALS envirnments with your sa account
-export GOOGLE_APPLICATION_CREDENTIALS = "sa.json"
+### Setup GOOGLE_APPLICATION_CREDENTIALS envirnments with your sa account
+export GOOGLE_APPLICATION_CREDENTIALS="/home/cliu/sa.json"
 
-# terraform steps
+### terraform steps
 ```
 terraform init
 terraform apply
