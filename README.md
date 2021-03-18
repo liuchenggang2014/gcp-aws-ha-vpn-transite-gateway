@@ -15,3 +15,10 @@
 - gcp_vpc_name: gcp vpc name
 
 - gcp_subnet1_cidr: gcp subnet cidr, this is manually into vpc route table because the vpc can not get the bgp from transite gateway
+
+# terraform steps
+```
+terraform init
+terraform apply
+terraform destroy
+```
